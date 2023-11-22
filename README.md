@@ -35,6 +35,7 @@ The easiest way to do this is with the use of Github desktop, however, you can a
 - **Endpoint:** `GET /install-openupm`
 - **Description:** Installs the openUPM CLI globally on your local machine.
 - **Example:** ( You can copy paste this into your browser )
+
   ```bash
   http://localhost:3000/install-openupm
   ```
@@ -44,6 +45,7 @@ The easiest way to do this is with the use of Github desktop, however, you can a
 - **Endpoint:** `GET /uninstall-openupm`
 - **Description:** Uninstalls the openUPM CLI globally from your local machine.
 - **Example:** ( You can copy paste this into your browser )
+
   ```bash
   http://localhost:3000/uninstall-openupm
   ```
