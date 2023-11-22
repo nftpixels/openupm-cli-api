@@ -6,7 +6,7 @@ const port = 3000;
 
 // Route to install openUPM
 app.get('/install-openupm', (req, res) => {
-  exec('sudo npm install -g openupm-cli', (error, stdout, stderr) => {
+  exec('npm install -g openupm-cli', (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return res.status(500).json({ error: 'Failed to install openUPM' });
